@@ -33,6 +33,8 @@ function Slider() {
     setImageIndex((prev) => (prev - 1 + slidesData.length) % slidesData.length);
   }
 
+  console.log(imageIndex);
+
   return (
     <>
       <div className="relative overflow-hidden">
