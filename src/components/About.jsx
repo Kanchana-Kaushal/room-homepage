@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="about" className="mt-8">
+    <section id="about" className="mt-8 items-center md:mt-0 md:flex">
       <img
         src="/public/images/image-about-dark.jpg"
         alt="about image dark"
